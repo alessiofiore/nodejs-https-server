@@ -1,5 +1,4 @@
-# nodejs-https-server
-HTTPS server with NodeJS
+# HTTPS server with NodeJS
 
 # Setup
 `npm install express --save`
