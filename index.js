@@ -25,11 +25,11 @@ app.get('/', function (req, res) {
   res.send('Hello');
 });
 
-app.post('/cmd/wec', function (req, res) {
+app.post('/', function (req, res) {
   console.log('POST received');
   console.log(req.body);
   docNumber++;
-  res.send('OK.\r\nOK.\r\n000110'+docNumber);
+  res.send('OK. ' + docNumber);
 });
 
 // app.listen(3000, function () {
