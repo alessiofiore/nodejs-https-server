@@ -1,6 +1,10 @@
 # nodejs-https-server
 HTTPS server with NodeJS
 
-# Generate a self-signed certificate
+# Setup
+`npm install express --save
 
+npm install body-parser --save`
+
+# Generate a self-signed certificate
 `openssl req -nodes -new -x509 -keyout server.key -out server.cert`
