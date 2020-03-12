@@ -32,11 +32,6 @@ app.post('/', function (req, res) {
   res.send('OK. ' + docNumber);
 });
 
-// app.listen(3000, function () {
-//   console.log('Example app listening on port 3000!');
-// });
-
-
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
